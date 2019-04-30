@@ -2,7 +2,10 @@
 # File: guessinggame.sh
 
 function guessinggame {
-    echo "Guessing game successfully initialised."
+    guess=0
+    file_count=$(ls . | wc -l)
+
+    echo $file_count
 }
 
 guessinggame
